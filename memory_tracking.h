@@ -6,7 +6,6 @@
 
 int GLOBAL_ALLOC_MEMORY;
 
-int tool_random_int (int vmin, int vmax);
 void tools_memory_init (void);
 void* tools_malloc(int alloc);
 void tools_free (void * ptr, int alloc);
